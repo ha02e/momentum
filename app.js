@@ -16,3 +16,6 @@ console.log(a/b);
 
 myName = "ha0";
 console.log("my name is "+myName);
+
+const amIFat=true;
+console.log(amIFat);
