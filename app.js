@@ -40,3 +40,26 @@ console.log(daysOfWeek[4]);
 
 //배열에 요소 추가하기
 daysOfWeek.push("sun");
+
+
+//객체(Objects)
+const playerName = "hy";
+const playerPoints = 121212;
+const playerFat = false;
+
+//player.name
+//player.points
+//player.fat
+
+//const player = ["hy", 121212, false];
+
+const player = {
+    //특성
+    name : "hy",
+    points : 20,
+    fat:false,
+};
+
+console.log(player);
+console.log(player.name);
+player.name;
