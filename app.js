@@ -19,3 +19,24 @@ console.log("my name is "+myName);
 
 const amIFat=true;
 console.log(amIFat);
+
+const mon = "mon";
+const tue = "tue";
+const wed = "wed";
+const thu = "thu";
+const fri = "fri";
+const sat = "sat";
+const sun = "sun";
+
+
+//배열(Arrays)
+//const daysOfWeek = [mon, tue, wed, thu, fri, sat, sun];
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+
+console.log(daysOfWeek);
+
+//5번째 요일은 무엇인가? (인덱스는 0부터 시작!)
+console.log(daysOfWeek[4]);
+
+//배열에 요소 추가하기
+daysOfWeek.push("sun");
