@@ -106,3 +106,26 @@ const player2 = {
 
 player2.sayHello("hy");
 player2.sayHello("mg");
+
+
+
+///함수 계산기 실습
+const calculator = {
+    add: function(a, b){
+        console.log(a+b);
+    },
+    minus: function(a, b){
+        console.log(a-b);
+    },
+    divide: function(a, b){
+        console.log(a/b);
+    },
+    multi: function(a, b){
+        console.log(a*b);
+    }
+}
+
+calculator.add(56, 42);
+calculator.minus(23-8);
+calculator.divide(64,4);
+calculator.multi(5,9);
