@@ -112,16 +112,19 @@ player2.sayHello("mg");
 ///함수 계산기 실습
 const calculator = {
     add: function(a, b){
-        console.log(a+b);
+        return a+b;
     },
     minus: function(a, b){
-        console.log(a-b);
+        return a-b;
     },
     divide: function(a, b){
-        console.log(a/b);
+        return a/b;
     },
     multi: function(a, b){
-        console.log(a*b);
+        return a*b;
+    },
+    power: function(a, b){
+        return a**b;
     }
 }
 
@@ -129,3 +132,17 @@ calculator.add(56, 42);
 calculator.minus(23-8);
 calculator.divide(64,4);
 calculator.multi(5,9);
+calculator.power(2,6);
+
+const plusResult = calculator.add(4, 8);
+const minusResult = calculator.minus(plusResult,10);
+
+
+
+//returns
+const age = 96;
+function calculateKrAge(ageOfForeigner){
+    ageOfForeigner + 2;
+}
+
+const krAge = calculateKrAge(age);
