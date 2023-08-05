@@ -182,3 +182,11 @@ const title = document.querySelector(".hello h1");
 
 console.log(title);
 title.innerText = "Hello!";
+
+
+//Events
+function handleTitleClick(){  
+    title.style.color = "blue";
+}
+
+title.addEventListener("click", handleTitleClick);
