@@ -169,3 +169,16 @@ if(isNaN(age) || age < 0){
 }
 
 
+
+//자바스크립트로 HTML을 가져오는 방법
+
+//const title = document.getElementById("title");
+//title.innerText = "Got you!";
+
+//const title = document.getElementsByTagName("h1");
+
+const title = document.querySelector(".hello h1");
+//const title = document.querySelectorAll(".hello h1");
+
+console.log(title);
+title.innerText = "Hello!";
