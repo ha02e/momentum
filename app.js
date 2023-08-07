@@ -1,3 +1,4 @@
+/*
 console.log(5645454);
 console.log("lalala");
 
@@ -182,20 +183,19 @@ const h1 = document.querySelector(".hello h1");
 
 console.log(h1);
 h1.innerText = "Hello!";
-
+*/
 
 //Events
-function handleTitleClick(){ 
-    const currentColor = h1.style.color;
-    let newColor;
+const h1 = document.querySelector("div.hello:first-child h1");
 
-    if(currentColor === "blue"){
-        newColor = "tomato";
+function handleTitleClick(){
+    const clickedClass = "clicked";
+    
+    if(h1.className === clickedClass){
+        h1.className = "";
     }else{
-        newColor = "blue";
+        h1.className = clickedClass;
     }
-
-    h1.style.color = newColor;
 }
 
 /*
