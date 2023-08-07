@@ -185,9 +185,20 @@ h1.innerText = "Hello!";
 
 
 //Events
-function handleTitleClick(){  
-    h1.style.color = "blue";
+function handleTitleClick(){ 
+    const currentColor = h1.style.color;
+    let newColor;
+
+    if(currentColor === "blue"){
+        newColor = "tomato";
+    }else{
+        newColor = "blue";
+    }
+
+    h1.style.color = newColor;
 }
+
+/*
 function handleMouseEnter(){  
     h1.innerText = "Mouse is here!";
 }
@@ -206,8 +217,11 @@ function handelWindowOffline(){
 function handelWindowOnline(){
     alert("ALL GOOOOD");   
 }
+*/
 
 h1.addEventListener("click", handleTitleClick);
+
+/*
 //h1.onclick = handleTitleClick;
 h1.addEventListener("mouseenter", handleMouseEnter);
 //h1.onmouseenter = handleMouseEnter;
@@ -217,3 +231,4 @@ window.addEventListener("resize", handleWindowResize);
 window.addEventListener("copy", handleWindowCopy);
 window.addEventListener("offline", handelWindowOffline);
 window.addEventListener("online", handelWindowOnline);
+*/
