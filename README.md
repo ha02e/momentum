@@ -7,6 +7,7 @@
   - [자바스크립트 학습2](https://velog.io/@ha02e/project-MOMENTUM-3)
   - 구현
     - [로그인](https://velog.io/@ha02e/project-MOMENTUM-4-LOGIN)
+    - [시계](https://velog.io/@ha02e/project-MOMENTUM-5-CLOCK)
   - 마무리(후기)
 <br>
 
