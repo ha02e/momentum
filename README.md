@@ -10,6 +10,7 @@
     - [시계](https://velog.io/@ha02e/project-MOMENTUM-5-CLOCK)
     - [랜덤 명언&배경화면](https://velog.io/@ha02e/project-MOMENTUM-6-QUOTE-BACKGROUND)
     - [To-Do-List](https://velog.io/@ha02e/project-MOMENTUM-7-TODOLIST)
+    - [날씨 정보](https://velog.io/@ha02e/project-MOMENTUM-8-GEOLOCATION-WEATHER)
   - 마무리(후기)
 <br>
 
